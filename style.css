@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main {
+    padding-top: 30px;
+    background-image: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.carousel-container {
+    width: 53%;
+    margin: 20px auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 427px;
+}
+
+#prev-btn {
+    position: absolute;
+    border: 0;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    opacity: 0.7;
+    top: 45%;
+    left: 5%;
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;
+}
+
+#next-btn {
+    position: absolute;
+    border: 0;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    opacity: 0.7;
+    top: 45%;
+    right: 5%;
+    z-index: 10;
+    cursor: pointer;
+    background: transparent;
+}
+
